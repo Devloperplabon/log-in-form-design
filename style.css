@@ -1,0 +1,110 @@
+
+/* reset default style*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* custom css start */
+body{
+    background-color: rgba(212, 63, 200, 0.945);
+    padding: 30px;
+}
+main{
+   
+}
+.layout {
+    margin: auto;
+    width: 256px;
+    height: 459px;
+    background: #000;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+    border-radius: 13px;
+    position: relative;
+}
+.layout .custom-logo {
+    width: 36px;
+    height: 36px;
+    background: #fff;
+    position: absolute;
+    top: 34px;
+    left: 114px;
+    border-radius: 6px 0px 6px 6px;
+}
+.layout .custom-logo::before {
+    content: "";
+    background: #111;
+    top: 8px;
+    left: 9px;
+    width: 19px;
+    height: 19px;
+    border-radius: 50% 50% 50% 0%;
+    position: absolute;
+}
+.layout_form {
+    background: white;
+    width: 100%;
+    height: calc(100% - 50px);
+    margin-top: 95px;
+    border-radius: 26px 0px;
+}
+.layout_form h3 {
+    text-align: center;
+    transform: translateY(35px);
+}
+.layout_form form {
+    margin-top: 60px;
+}
+.form-group {
+    margin-bottom: 22px;
+}
+.layout_form form .form-group label {
+    margin-left: 47px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+.layout_form form .form-group input {
+    display: block;
+    padding: 10px 15px;
+    width: 200px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    box-shadow: 1px 0px 9px #afafaf, -6px -6px 12px #ffffff;
+}
+.layout_form form .form-group input:focus{
+  
+    outline: none;
+}
+.layout_form form button {
+    background: #111;
+    border: none;
+    color: #fff;
+    margin: auto;
+    display: block;
+    padding: 6px 81px;
+    border-radius: 7px;
+    transition: .5s;
+}
+.layout_form form button:hover{
+    background:rgb(122, 228, 255);
+    color: #111;
+}
+.layout_form span {
+    font-size: 11px;
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    margin-top: 48px;
+    font-weight: 700;
+}
+.layout_form span a {
+    text-decoration: none;
+    color: #111;
+    font-family: monospace;
+}
